@@ -1,0 +1,38 @@
+.client {
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+
+}
+.client-a {
+    display: flex;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    cursor: pointer;
+    fill: #AFB1B8;
+    align-items: center;
+    justify-content: center;
+        &:hover,
+        &:focus {
+                fill: #2196F3;
+                border-color: #2196F3;
+            }
+}
+.client-ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+        @media screen and (min-width: 1200px) {
+            flex-wrap: nowrap;
+        }
+    }
+.client-li{
+    width: 100%;
+    @media screen and (min-width:480px) {
+            width: calc((100% - 30px) / 2);
+        }
+    @media screen and (min-width:768px) {
+            width: calc((100% - 60px) / 3);
+        }
+}

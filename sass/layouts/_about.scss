@@ -1,0 +1,13 @@
+.about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.img-ul {
+    display: flex;
+
+    align-items: center;
+}
+
+.img-ul__li:not(:last-child) {
+    margin-right: 30px;
+}
