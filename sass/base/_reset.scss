@@ -19,5 +19,9 @@ ul,ol{
 }
 p{margin:0;
 padding: 0;}
-body {font-family:'Roboto', sans-serif;}
+body {font-family:'Roboto', sans-serif;
+}
+.no-scroll{
+  overflow:hidden ;
+}
 button {border:none ;}

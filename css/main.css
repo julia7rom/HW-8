@@ -113,6 +113,11 @@
   padding-top: 48px;
   padding-bottom: 48px;
 }
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    display: none;
+  }
+}
 
 .menu-clouse {
   display: block;
@@ -213,6 +218,12 @@
 .menu-mobile:focus {
   fill: #2196F3;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .top-div {
+    display: none;
+  }
 }
 
 .herou {
@@ -489,6 +500,20 @@
   }
 }
 
+.about {
+  display: none;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.img-ul {
+  align-items: center;
+}
+
+.img-ul__li:not(:last-child) {
+  margin-right: 30px;
+}
+
 .footer-studio {
   color: #FFFFFF;
 }
@@ -755,6 +780,10 @@ p {
 
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
 
 button {
@@ -1224,6 +1253,11 @@ h5 {
   padding-top: 48px;
   padding-bottom: 48px;
 }
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    display: none;
+  }
+}
 
 .menu-clouse {
   display: block;
@@ -1324,4 +1358,10 @@ h5 {
 .menu-mobile:focus {
   fill: #2196F3;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .top-div {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
