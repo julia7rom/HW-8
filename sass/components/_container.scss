@@ -14,3 +14,14 @@
              max-width: 1200px;
          }
   }
+  .mob-container{
+        width: 100%;
+        padding-left: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: auto;
+  }

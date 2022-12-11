@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./css/styies.css">
 </head>
 <body>
-    <!-- <header class="header">
+    <header class="header">
         <div class="container header__container">
             <a class="logo header__logo" href="./index.html">Web<span class="logo__span">Studio</span></a>
             <nav class="nav">
@@ -31,18 +31,17 @@
                 </ul>
             </nav>
             <ul class="contacts__list">
-                <li class="contacts__item"><a class="contacts__link" href=""><svg class="contacts__svg" width="16" height="12">
-                            <use href="./img/sprite.svg#envelope"></use>
-                        </svg>info@devstudio.com</a></li>
-                <li class="contacts__item"><a class="contacts__link" href="+380991111111"><svg class="contacts__svg" width="10"
-                            height="16">
-                            <use href="./img/sprite.svg#smartphone"></use>
-                        </svg>
+                <li class="contacts__item"><a class="contacts__link" href="">info@devstudio.com</a></li>
+                <li class="contacts__item"><a class="contacts__link" href="+380991111111">
                         +38 099 111 11 11</a></li>
             </ul>
+            <button type="button" class="menu-open" data-menu-open ><svg class="menu-mobile" width="40" height="40">
+                <use href="./img/sprite.svg#mobile-menu"></use>
+            </svg></button>
         </div>
-    </header>
-    <main> -->
+        </header>
+            
+    <main>
         <section class="herou">
             <div class="container">
             <h1 class="herou__title">Эффективные решения <br> для вашего бизнеса</h1>
@@ -63,7 +62,7 @@
                     <p class="arguments__text">Значимость этих проблем настолько  очевидна, что реализация плановых  заданий.</p></li>
             </ul>
             </div>
-        <!-- <section class="about ">
+        <section class="about ">
             <div class="container">
             <h2 class="about_title">Чем занимаемся</h2>
             <ul class="img-ul">
@@ -81,7 +80,7 @@
                          height="294"></li>
             </ul>
             </div>
-        </section> -->
+        </section>
         <section class="section__team section">
             <div class="container">
             <h2 class="team-name">Наша команда</h2>
@@ -322,7 +321,7 @@
                         
         </div>
     </footer> -->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <form class="modal-form" action="">
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
@@ -373,9 +372,47 @@
                 </button>
                 </form>
         </div>
+    </div>
+        <!-- мобільна модал -->
+        <div class="mob-menu backdrop is-hidden " data-menu>
+            <div class="mob-container">
+                <div>
+                    <button class="button-menu menu-clouse" type="button" data-menu-close><svg class="menu-mobile-clouse"
+                            width="40" height="40">
+                            <use href="./img/sprite.svg#icon-close_40px"></use>
+                        </svg></button>
+                    <ul class='mobile'>
+                        <li class="mobile__item"><a class="mobile__link" href="./index.html">Студия</a></li>
+                        <li class="mobile__item"><a class="mobile__link" href="./portfolio.html">Портфолио</a></li>
+                        <li class="mobile__item"><a class="mobile__link" href="">Контакты</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="contacts__mob">
+                        <li class="contacts__item-mob"><a class="contacts__link-nomb" href="+380991111111">+38 099 111 11 11</a>
+                        </li>
+                        <li class="contacts__item-mob"><a class="contacts__link-mob" href="">info@devstudio.com</a></li>
+        
+                    </ul>
+                    <ul class="team__social-icons-mob">
+                        <li class="team__social-list-item-mob"><a class="team__social-icon-list-mob" href="">Instagram
+        
+                            </a></li>
+                        <li class="team__social-list-item-mob"><a class="team__social-icon-list-mob" href="">Twitter
+        
+                            </a></li>
+                        <li class="team__social-list-item-mob"><a class="team__social-icon-list-mob" href="">Facebook
+        
+                            </a></li>
+                        <li class="team__social-list-item-mob"><a class="team__social-icon-list-mob" href="">LinkedIn
+        
+                            </a></li>
+                </div>
+            </div>
+        </div>
 
-    </div> -->
+    
 <script src="./css/modal.js"></script>
-
+<script src="./css/menu.js"></script>
 </body>
 </html>
