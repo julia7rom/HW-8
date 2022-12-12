@@ -2,10 +2,12 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.2);
     transition: opacity 500ms linear, visibility 500ms linear;
+    overflow-y: scroll;
 }
 
 .backdrop.is-hidden {
@@ -19,10 +21,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 528px;
     background-color: #FFFFFF;
     cursor: pointer;
     border-radius: 4px;
+    width: 100%;
+    max-width: 450px;
+    height: 609px;
 }
 
 .modal-clouse-btn {
@@ -126,8 +130,9 @@
 }
 
 .modal-form {
-    padding: 40px 39px 40px 41px;
+   padding: 40px;
     cursor: pointer;
+  
 }
 
 .checkboxx {
@@ -143,14 +148,18 @@
 .modal-policy {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: #757575;
     margin-bottom: 30px;
     margin-top: 20px;
     display: flex;
     align-items: center;
+    @media screen and (min-width: 1200px) {
+            font-size: 14px;
+            line-height: 1.71;
+        }
         .modal-chek:checked+& span {
                 background: #2196F3;
                 border: none;

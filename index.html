@@ -31,9 +31,13 @@
                 </ul>
             </nav>
             <ul class="contacts__list">
-                <li class="contacts__item"><a class="contacts__link" href="">info@devstudio.com</a></li>
-                <li class="contacts__item"><a class="contacts__link" href="+380991111111">
-                        +38 099 111 11 11</a></li>
+                <li class="contacts__item"><a class="contacts__link" href=""><svg class="contacts__svg" width="16" height="12">
+                        <use href="./img/sprite.svg#envelope"></use>
+                    </svg>info@devstudio.com</a></li>
+                <li class="contacts__item"><a class="contacts__link" href="+380991111111"><svg class="contacts__svg" width="10" height="16">
+                        <use href="./img/sprite.svg#smartphone"></use>
+                    </svg>
+                    +38 099 111 11 11</a></li>
             </ul>
             <button type="button" class="menu-open" data-menu-open ><svg class="menu-mobile" width="40" height="40">
                 <use href="./img/sprite.svg#mobile-menu"></use>
@@ -78,14 +82,26 @@
                          alt="Игорь Демьяненко"/>
                     </picture>
                         </li>
-                <li class="img-ul__li"><img src="./img/img-2.png"
-                         alt=""
-                         width="370"
-                         height="294"></li>
-                <li class="img-ul__li"><img src="./img/img-3.png"
-                         alt=""
-                         width="370"
-                         height="294"></li>
+                <li class="img-ul__li">
+                    <picture>
+                    <sourse
+                    srcset="
+                    ./img/img-2-1200-x.jpg 1x,
+                    ./img/img-2-1200-2x.jpg 2x"
+                    media="(min-width: 1200px)"/>
+                     <img
+                        src="./img/img-2.png"
+                         alt="Игорь Демьяненко"/>
+                    </picture>
+                       </li>
+                <li class="img-ul__li">
+                    <picture>
+                        <sourse srcset="
+                                        ./img/img-3-1200-x.jpg 1x,
+                                        ./img/img-3-1200-2x.jpg 2x" media="(min-width: 1200px)" />
+                        <img src="./img/img-3.png" alt="Игорь Демьяненко" />
+                    </picture>
+                        </li>
             </ul>
             </div>
         </section>
@@ -316,8 +332,9 @@
             </div>
         </section>
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
         <div class="container footer-too">
+            <div class="display-flex">
         <div class="logo-and-addres">
         <a class="logo" href="./index.html">Web<span class="footer-studio">Studio</span></a>
         <address>
@@ -359,22 +376,26 @@
             </ul>
         </div>
         </div>
-        
-        <DIv class="div-footer-email">
+        </div>
+        <div class="div-footer-email">
         <p class="label-footer-mail">Подпишитесь на рассылку</p>
         <form class="form-footer" action="">
+        
+        <div class="footer-input-btn">
         <lable for="footer-email" class="label-footer-email"></lable>
+        
         <input name="" id="footer-email" class="footer-email" placeholder="E-mail" type="email"></input>
-        <div>
+        
         <button class="button-footer-email" type="submit">Подписаться<svg class="svg-button"width="24" height="24">
                                 <use class="use-svg-button" href="./img/sprite.svg#icon-1"></use>
                             </svg></button>
-                            </DIv>
+        
+        </div>
          </div>
         </form>
                         
         </div>
-    </footer> -->
+    </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <form class="modal-form" action="">

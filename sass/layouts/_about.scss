@@ -2,11 +2,18 @@
     display: none;
     padding-top: 60px;
     padding-bottom: 60px;
+    @media screen and (min-width: 1200px) {
+            display: flex;
+        }
     
 }
 .img-ul {
     // display: flex;
     align-items: center;
+    @media screen and (min-width: 1200px) {
+            display: flex;
+            flex-wrap: nowrap;
+        }
 }
 
 .img-ul__li:not(:last-child) {
