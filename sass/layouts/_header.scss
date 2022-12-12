@@ -147,7 +147,7 @@ margin-right: 93px;
     width: 100vw;
     height: 100vh;
     background-color: #FFFFFF;
-    padding-top: 48px;
+    
     padding-bottom: 48px;
     @media screen and (min-width: 768px) {
             display: none;
@@ -155,12 +155,13 @@ margin-right: 93px;
 }
 .menu-clouse{
 display: block;
-    margin-left: auto;
+    
     z-index: 1;
 }
 .menu-mobile-clouse{
-    
-    margin-bottom: 8px;
+    position: absolute;
+    top:21px;
+    right: 25px;
     cursor: pointer;
     &:hover,
     &:focus {
@@ -236,7 +237,6 @@ text-align: left;
         padding-right: 0;}
 }
 .button-menu {
-   
     background-color: #FFFFFF;
     width: 100vw;
    
@@ -253,6 +253,6 @@ text-align: left;
         display: none;
     }
 }
-.menu-mobile{
-    margin-right: 25px;
+.mobile{
+    margin-top: 48px;
 }

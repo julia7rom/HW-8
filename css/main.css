@@ -155,7 +155,6 @@
   width: 100vw;
   height: 100vh;
   background-color: #FFFFFF;
-  padding-top: 48px;
   padding-bottom: 48px;
 }
 @media screen and (min-width: 768px) {
@@ -166,12 +165,13 @@
 
 .menu-clouse {
   display: block;
-  margin-left: auto;
   z-index: 1;
 }
 
 .menu-mobile-clouse {
-  margin-bottom: 8px;
+  position: absolute;
+  top: 21px;
+  right: 25px;
   cursor: pointer;
 }
 .menu-mobile-clouse:hover, .menu-mobile-clouse:focus {
@@ -271,8 +271,8 @@
   }
 }
 
-.menu-mobile {
-  margin-right: 25px;
+.mobile {
+  margin-top: 48px;
 }
 
 .herou {
@@ -995,6 +995,7 @@ button {
   flex-direction: column;
   justify-content: space-between;
   overflow: auto;
+  position: relative;
 }
 
 .herou__title {
@@ -1477,7 +1478,6 @@ h5 {
   width: 100vw;
   height: 100vh;
   background-color: #FFFFFF;
-  padding-top: 48px;
   padding-bottom: 48px;
 }
 @media screen and (min-width: 768px) {
@@ -1488,12 +1488,13 @@ h5 {
 
 .menu-clouse {
   display: block;
-  margin-left: auto;
   z-index: 1;
 }
 
 .menu-mobile-clouse {
-  margin-bottom: 8px;
+  position: absolute;
+  top: 21px;
+  right: 25px;
   cursor: pointer;
 }
 .menu-mobile-clouse:hover, .menu-mobile-clouse:focus {
@@ -1593,6 +1594,6 @@ h5 {
   }
 }
 
-.menu-mobile {
-  margin-right: 25px;
+.mobile {
+  margin-top: 48px;
 }/*# sourceMappingURL=main.css.map */
