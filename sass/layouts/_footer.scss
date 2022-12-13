@@ -31,6 +31,9 @@
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+    @media screen and (min-width: 1200px) {
+            padding-bottom: 0;
+        }
 }
 
 .label-footer-mail {
@@ -68,7 +71,7 @@
         }
     @media screen and (min-width: 1200px) {
         width: 100%;
-        max-width:358px;   
+        min-width:358px;   
         margin-right: 12px;
         text-align:start;
         align-items:flex-start;

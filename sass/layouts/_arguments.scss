@@ -51,7 +51,10 @@
         
     }
 }
-
+.conteiner-about{
+    @media screen and (min-width: 1200px) {
+        padding-bottom: 0;
+}}
 .arguments__title {
     font-weight: bold;
     font-size: 14px;
@@ -61,6 +64,12 @@
     color: #212121;
     margin-bottom: 10px;
     text-align: center;
+    @media screen and (min-width: 768px) {
+            text-align: start;
+        }
+    @media screen and (min-width: 1200px) {
+                text-align: start;
+            }
 }
 
 .arguments__text {

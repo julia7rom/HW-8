@@ -4,10 +4,20 @@
 }
 .header {
     background: #FFFFFF;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     border-bottom: 1px solid #ECECEC;
-}
+    position: relative;
+        @media screen and (min-width: 768px) {
+            padding-top: 24px;
+            padding-bottom: 25px;
+            }
+        
+            @media screen and (min-width: 1200px) {
+                padding-top: 24px;
+                padding-bottom: 25px;
+            }
+        }
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -47,16 +57,16 @@ margin-right: 93px;
     
 }
 
-.contacts__svg {
-        @media screen and (min-width: 768px) {
-                margin-right: 8px;
-            }
-        @media screen and (min-width: 1200px) {
-                margin-right: 10px;
+// .contacts__svg {
+//         @media screen and (min-width: 768px) {
+//                 margin-right: 8px;
+//             }
+//         @media screen and (min-width: 1200px) {
+//                 margin-right: 10px;
         
-            }
+//             }
 
-}
+// }
 
 .nav__link {
     font-weight: 500;
@@ -131,7 +141,57 @@ margin-right: 93px;
         align-items: center;
         justify-content: center;
         text-align: center;
-        }
+        @media screen and (min-width: 768px) {
+                font-weight: 500;
+                    font-size: 12px;
+                    line-height: 1.16;
+                    letter-spacing: 0.02em;
+                    
+                    }
+        @media screen and (min-width: 1200px) {
+                    font-size: 14px;
+                    line-height: 1.14;
+                    }
+                }
+    .size-svg{
+        @media screen and (min-width: 768px) {
+                width: 14px;
+                height: 10px;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                top: 29px;
+                right: 139px;
+            }
+        @media screen and (min-width: 1200px) {
+            width: 16px;
+            height: 12px;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 34px;
+            right: 332px;
+
+           
+                }
+                }
+    .size-svg-tel{
+        @media screen and (min-width: 768px) {
+                width: 10px;
+                height: 14px;
+                position: absolute;
+                top: 54px;
+                right: 139px;
+            }
+        
+            @media screen and (min-width: 1200px) {
+                width: 10px;
+                height: 16px;
+                position: absolute;
+                top: 30px;
+                right: 147px;
+            }
+    }
     // мобільна версія
 .menu-open{
     margin-left: auto;
