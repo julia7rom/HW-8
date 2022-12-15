@@ -8,7 +8,6 @@
   padding-top: 16px;
   padding-bottom: 16px;
   border-bottom: 1px solid #ECECEC;
-  position: relative;
 }
 @media screen and (min-width: 768px) {
   .header {
@@ -63,6 +62,17 @@
   .contacts__item:not(:last-child) {
     margin-right: 50px;
     margin-bottom: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__svg {
+    margin-right: 8px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__svg {
+    margin-right: 10px;
   }
 }
 
@@ -145,12 +155,18 @@
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.02em;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    justify-content: flex-start;
   }
 }
 @media screen and (min-width: 1200px) {
   .contacts__link {
     font-size: 14px;
     line-height: 1.14;
+    display: flex;
+    flex-direction: row;
   }
 }
 
@@ -160,9 +176,6 @@
     height: 10px;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 29px;
-    right: 139px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -171,9 +184,6 @@
     height: 12px;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 34px;
-    right: 332px;
   }
 }
 
@@ -181,18 +191,16 @@
   .size-svg-tel {
     width: 10px;
     height: 14px;
-    position: absolute;
-    top: 54px;
-    right: 139px;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 1200px) {
   .size-svg-tel {
     width: 10px;
     height: 16px;
-    position: absolute;
-    top: 30px;
-    right: 147px;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -477,6 +485,7 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
+    margin-bottom: 50px;
   }
 }
 
@@ -585,7 +594,6 @@
 }
 
 .client {
-  padding-top: 60px;
   justify-content: center;
   align-items: center;
 }
@@ -1120,6 +1128,7 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    margin-bottom: 50px;
   }
 }
 
@@ -1408,7 +1417,6 @@ h5 {
   padding-top: 16px;
   padding-bottom: 16px;
   border-bottom: 1px solid #ECECEC;
-  position: relative;
 }
 @media screen and (min-width: 768px) {
   .header {
@@ -1463,6 +1471,17 @@ h5 {
   .contacts__item:not(:last-child) {
     margin-right: 50px;
     margin-bottom: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__svg {
+    margin-right: 8px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__svg {
+    margin-right: 10px;
   }
 }
 
@@ -1545,12 +1564,18 @@ h5 {
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.02em;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    justify-content: flex-start;
   }
 }
 @media screen and (min-width: 1200px) {
   .contacts__link {
     font-size: 14px;
     line-height: 1.14;
+    display: flex;
+    flex-direction: row;
   }
 }
 
@@ -1560,9 +1585,6 @@ h5 {
     height: 10px;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 29px;
-    right: 139px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1571,9 +1593,6 @@ h5 {
     height: 12px;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 34px;
-    right: 332px;
   }
 }
 
@@ -1581,18 +1600,16 @@ h5 {
   .size-svg-tel {
     width: 10px;
     height: 14px;
-    position: absolute;
-    top: 54px;
-    right: 139px;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 1200px) {
   .size-svg-tel {
     width: 10px;
     height: 16px;
-    position: absolute;
-    top: 30px;
-    right: 147px;
+    align-items: center;
+    justify-content: center;
   }
 }
 
